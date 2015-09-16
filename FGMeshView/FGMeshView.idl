@@ -1,0 +1,29 @@
+// FGMeshView.idl : type library source for FGMeshView.exe
+
+// This file will be processed by the MIDL compiler to produce the
+// type library (FGMeshView.tlb).
+
+[ uuid(C936EB2D-9C05-4090-8D1B-5B6B2F1EEE20), version(1.0) ]
+library FGMeshView
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+	//  Primary dispatch interface for CFGMeshViewDoc
+	
+	[ uuid(A2C35A88-6AFB-4B85-99A8-2195E79AB8B8) ]
+	dispinterface IFGMeshView
+	{
+		properties:
+			
+		methods:
+	};
+
+	//  Class information for CFGMeshViewDoc
+	
+	[ uuid(12135306-B61D-4743-85BD-06BDBEC697C5) ]
+	coclass CFGMeshViewDoc
+	{
+		[default] dispinterface IFGMeshView;
+	};
+};

@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FGMeshView", "FGMeshView\FGMeshView.vcxproj", "{5909EDD3-8300-45E5-AF0D-AE5BF332A046}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FaceView", "FaceView\FaceView.vcxproj", "{8792E26C-EC5C-45BE-8AFB-39282DBAC546}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5909EDD3-8300-45E5-AF0D-AE5BF332A046}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5909EDD3-8300-45E5-AF0D-AE5BF332A046}.Debug|Win32.Build.0 = Debug|Win32
+		{5909EDD3-8300-45E5-AF0D-AE5BF332A046}.Release|Win32.ActiveCfg = Release|Win32
+		{5909EDD3-8300-45E5-AF0D-AE5BF332A046}.Release|Win32.Build.0 = Release|Win32
+		{8792E26C-EC5C-45BE-8AFB-39282DBAC546}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8792E26C-EC5C-45BE-8AFB-39282DBAC546}.Debug|Win32.Build.0 = Debug|Win32
+		{8792E26C-EC5C-45BE-8AFB-39282DBAC546}.Release|Win32.ActiveCfg = Release|Win32
+		{8792E26C-EC5C-45BE-8AFB-39282DBAC546}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
